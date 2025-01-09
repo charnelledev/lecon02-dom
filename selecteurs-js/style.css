@@ -12,3 +12,14 @@ background-color: rgb(187, 137, 137);
 button {
     cursor: pointer;
 }
+.box{
+    background-color: red;
+    padding: 15px;
+
+}
+p{
+    visibility: hidden;
+}
+.paragraphvisible{
+    visibility: visible;
+}
