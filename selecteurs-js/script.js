@@ -36,7 +36,7 @@ const div = document.querySelector("div");
 btn1.addEventListener("click",
 
     ()=>{
-        console.log('baffoussam');
+        console.log('Baffoussam');
         paragraph.classList.add('paragraphvisible');//comme fontionnalite on a aussi add
         btn1.style.color = 'yellow'
         btn1.style.borderRadius = '7px'
@@ -54,16 +54,15 @@ btn2.addEventListener("click",
         btn2.style.backgroundColor= 'green'
     }
 )
-// div.addEventListener("click",
-//     ()=>{
-//         console.log('click-btn')
-//         paragraph.classList.toggle('paragraphvisible');//comme fontionnalite on a aussi add
-//         div.style.color = 'yellow'
-//         div.style.borderRadius = '12px'
-//         div.style.padding ='7px'
-//         div.style.backgroundColor= 'green'
-//     }
-// )
+div.addEventListener("click",
+    ()=>{
+        console.log('click-btn')
+        div.style.color = 'yellow'
+        div.style.borderRadius = '12px'
+        div.style.padding ='7px'
+        div.style.backgroundColor= 'green'
+    }
+)
 
  function addition(a,b){
     
